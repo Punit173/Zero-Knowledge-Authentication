@@ -7,8 +7,8 @@ body {
   .container {
     margin-top: 2%;
     position: absolute;
-    left:35%;
-    padding: 10%;
+    left:37%;
+    padding: 8%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,15 +44,19 @@ body {
     border-radius: 10px;
     background-color: black;
     font-size: 1rem;
-    color: rgb(255, 255, 255);
+    color: white;
+  }
+  
+  .input ::placeholder{
+    color: white;
   }
   
   .button {
-    width: 30%;
+    width: 20%;
     position: relative;
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
     padding: 0.75rem;
-    color: rgb(125, 120, 120);
+    color: white;
     border: none;
     border-radius: 10px;
     font-size: 1rem;
@@ -124,4 +128,8 @@ body {
     cursor: pointer;
     background-color: black;
     text-align: center;
+  }
+
+  img{
+    border-radius: 5px;
   }
