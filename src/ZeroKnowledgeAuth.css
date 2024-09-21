@@ -134,3 +134,22 @@ body {
   img{
     border-radius: 5px;
   }
+
+  @media (max-width: 768px) {
+    .container {
+      width: 90%; /* Adjust width for smaller screens */
+      height: auto; /* Allow height to adjust based on content */
+      padding: 10%; /* Increase padding for better spacing */
+    }
+  }
+  
+  /* Media query for phones */
+  @media (max-width: 480px) {
+    .container {
+        left: -5%;
+        top: 20px;
+      width: 95%; /* Almost full width on mobile */
+      height: 90vh; /* Allow height to adjust */
+      padding: 15%; /* Add more padding */
+    }
+  }
