@@ -111,9 +111,10 @@ body {
     border: none;
   margin-top: 20px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     resize: none;
     background-color: black;
+    color: white;
   }
   .button_gen{
     width: 110%;
