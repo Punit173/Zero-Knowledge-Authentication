@@ -39,15 +39,15 @@ const Checkout = () => {
   return (
     <div className="container">
       <div className="form-wrapper">
-        <h2 className="title">Buy a T-shirt for $20</h2>
-        <p>Click the button below to proceed to checkout.</p>
-        <img height={200} src='https://pics.craiyon.com/2023-07-03/6016586470ad4c01abb27392efad0257.webp'></img>
+        <h2 className="title">Exchange Currency</h2>
+        <p>Click the button below to proceed.</p>
+        <img height={200} src='https://cdn.pixabay.com/photo/2021/11/05/12/22/dollars-6771261_960_720.jpg'></img>
         <button
           className="button_gen"
           onClick={handleCheckout}
           disabled={loading}
         >
-          {loading ? 'Processing...' : 'Checkout'}
+          {loading ? 'Processing...' : 'Proceed'}
         </button>
 
         {error && <p className="error-message">{error}</p>}
